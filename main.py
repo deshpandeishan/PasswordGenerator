@@ -46,8 +46,8 @@ class Password:
         return self.pass_str
 
 
-print("Welcome to Random Password Generator")
-print("Provide the number of digits you want in your password:")
+print("Welcome to Password Generator")
+print("Provide the number of digits you want in your password below")
 l_alpha = int(input("Lowercase Alphabets: "))
 u_alpha = int(input("Uppercase Alphabets: "))
 digits = int(input("Numbers: "))
@@ -55,4 +55,4 @@ symbols = int(input("Symbols: "))
 
 passkey = Password()
 password = passkey.generate_password()
-print(f"Your password is {password}.")
+print(f"🤫Your password is {password}.")
